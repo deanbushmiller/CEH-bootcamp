@@ -1,4 +1,5 @@
 # CEH-bootcamp
+# Class technical setup process overview: https://vimeo.com/471972833
 # Exam Pre process- Application fee $100 + application
 # Exam 2 way to take it ECC or 
 # 2 levels of exam: CEHv11 multiple choice and then Master CEH = Practical
