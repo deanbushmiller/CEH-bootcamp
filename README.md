@@ -1,8 +1,6 @@
 # CEH-bootcamp
 # Class technical setup process overview: https://vimeo.com/471972833
 # Exam Pre process- Application fee $100 + application
-# Only do the online ECC version
-# ECC Courseware has hidden items that give exam advantages
 # This course has 3 componets for every topic: 
 #  A. What you need to know 
 #  B. What you need to be able to do 
