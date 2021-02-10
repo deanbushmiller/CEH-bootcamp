@@ -1,3 +1,4 @@
+#2021-02-10 - PLEASE NOTE 00,01,02 files were NOT in the Zip- so new versions are listed above- Zips are still good
 # CEH-bootcamp
 # Class technical setup process overview: https://vimeo.com/471972833
 # Exam Pre process- Application fee $100 + application
