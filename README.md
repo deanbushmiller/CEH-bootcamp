@@ -27,10 +27,3 @@
 # I can show you how to train and help you adjust when you are off course
 # I cannot jump for you
 # Practice harder than you compete and you will win/pass
-
-# since Windows 10 Anniversary update -;tools like chntpw, bkhive, pwdump, samdump2 
-# Windows uses AES128 to encrypt password's MD4 hash. 
-# nearly all tutorials regarding Windows password recovery became outdated.
-# Fortunately there is a tool called mimikatz
-# so you must learn wrong to get answers correct on exam
-
