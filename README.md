@@ -1,9 +1,9 @@
-#2021-02-10 - PLEASE NOTE you can get much more if you email ask for an account on my vmlt.com site:
-# in the spirit of hacking You must do some recon and find my email address t oget an account.
-# Your message must have 
-#a subject line: o'iwantanacount
-#a body containing: first,last name, country, timezone
-#I resever the right to reject any request for any reason and not tell you the reason.
+# 2021-02-10 - PLEASE NOTE you can get much more if you email ask for an account on my vmlt.com site:
+# In the spirit of hacking: You must do some recon and find my email address to get an account.
+# Your message must have
+# a subject line: o'iwantanacount
+# a body containing: first,last name, country, timezone
+# I resever the right to reject any request for any reason and not tell you the reason.
 
 # CEH-bootcamp
 # Class technical setup process overview: https://vimeo.com/471972833
