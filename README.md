@@ -10,11 +10,11 @@
 ## They will not work on a Tablet or Chromebook
 ## 1 Profesional video setup process overview: https://vimeo.com/471972833
 ## 2 Minimal to follow along (get Kali)
-		A. If you can support docker: docker pull kalilinux/kali
-		B. If you can support Virtualization: https://www.kali.org/docs/virtualization/
-		C. If none of this is possible you must purchase a lab
-			#1. 6 months:  ECC $200 complete -best for text takers
-			#2. 3hrs per day FREE OR $19 Per month:  Offensive Security’s Proving Grounds: https://www.offensive-security.com/labs/individual/
+	A. If you can support docker: docker pull kalilinux/kali
+	B. If you can support Virtualization: https://www.kali.org/docs/virtualization/
+	C. If none of this is possible you must purchase a lab / or just watch (you will not pass if you do not do labs)
+		#1. 6 months:  ECC $200 complete -best for text takers
+		#2. 3hrs per day FREE OR $19 Per month:  Offensive Security’s Proving Grounds: https://www.offensive-security.com/labs/individual/
 # CEH classroom feedback tool Install FREE
 ## Most O' students have security controls in place that limit access to sites from a computer & all students have a personal mobile device
 ## Test on you mobile device you use for class: www.menti.com
