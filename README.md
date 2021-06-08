@@ -1,4 +1,5 @@
-## 2021-06-08 - PLEASE NOTE you can get much more if you email ask for an account on my vmlt.com site:
+# Do not download the PCAPNG files unless directed by the instructor- you can create your own.
+## 2021-06-08 - PLEASE NOTE you can get much more if you email ask for an account on my vmlt.com site
 ### In the spirit of hacking: You must do some recon and find my email address to get an account.
 ### Your message must have
 ### a subject line: o'iwantanaccount
