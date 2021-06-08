@@ -1,11 +1,12 @@
-# 2021-02-10 - PLEASE NOTE you can get much more if you email ask for an account on my vmlt.com site:
-## In the spirit of hacking: You must do some recon and find my email address to get an account.
-## Your message must have
-## a subject line: o'iwantanaccount
-## a body containing: first,last name, country, timezone
-## I resever the right to reject any request for any reason and not tell you the reason.
+## 2021-06-08 - PLEASE NOTE you can get much more if you email ask for an account on my vmlt.com site:
+### In the spirit of hacking: You must do some recon and find my email address to get an account.
+### Your message must have
+### a subject line: o'iwantanaccount
+### a body containing: first,last name, country, timezone
+### I resever the right to reject any request for any reason and not tell you the reason.
 
-# CEH-bootcamp 2 versions of setup
+# CEH-bootcamp 
+## 2 versions of setup
 ## These only work if you have administrative control over your computer
 ## They will not work on a Tablet or Chromebook
 ## 1 Profesional video setup process overview: https://vimeo.com/471972833
