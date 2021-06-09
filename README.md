@@ -1,6 +1,6 @@
 # Do not download the PCAPNG files unless directed by the instructor- you can create your own.
 # This github is for 2 different classes: 2-Day Bootcamp = what you must know to pass. 4-Day Bootcamp What you must do to pass.
-## 2-day Knowing = Glossary/notecards, Readings. You can read on your once you udenrstand the depth and focus of the exam.
+## 2-day Knowing = Glossary/notecards, Readings. You can read on your once you understand the depth and focus of the exam.
 ## 4-day Doing = Understanding and apply concept in a lab. You can do the activities of Ethical hacking once you know the process and the tools.
 
 
