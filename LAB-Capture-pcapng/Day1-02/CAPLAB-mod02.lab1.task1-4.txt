@@ -1,0 +1,15 @@
+For mod02.lab1.task1-4.pcapng
+	
+Beginner:
+(ip.src == IPADDRESS) && (PROTCOL)
+write a filter for the source of most traffic and application layer protocol
+
+Intermediate:
+find all conversations
+for unencrypted web traffic
+
+Advanced:
+Why is the filter
+dns.qry.name matches "clickalab.com"
+better than
+dns.qry.name == "mod02.lab1.task2.num2.clickalab.com"
