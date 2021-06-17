@@ -2,7 +2,7 @@ TAG your answer with B I or A
 For mod03.lab3.task2.pcapng
 	
 Beginner:
-1. What indicator in the default view color of this capture tells you something is wrong?
+ 1. What indicator in the default view color of this capture tells you something is wrong?
 HINT: View default coloring rules
 
 Intermediate:
