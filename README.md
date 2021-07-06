@@ -21,14 +21,12 @@
 	C. If none of this is possible you must purchase a lab / or just watch (you will not pass if you do not do labs)
 		#1. 6 months:  ECC $200 complete -best for CEHv11 exam takers
 		#2. 3hrs per day FREE OR $19 Per month:  Offensive Security’s Proving Grounds: https://www.offensive-security.com/labs/individual/
-# CEH classroom feedback tool Install FREE
+# CEH classroom feedback tool FREE use the browser version only
 ## Most O' students have security controls in place that limit access to sites from a computer & all students have a personal mobile device
 ## Test on you mobile device you use for class: www.menti.com
-## 3 ways to play
+## Way to play along
 ### EASY: open your phone's camera and point at the QRCODE when your instructor shows it on the screen
-### Add the app to your phone (Search for Mentimeter) or:
-### Andriod install from googleplay: https://play.google.com/store/apps/details?id=com.mentimeter.voting&hl=en_US&gl=US
-### Apple IOS isntall: https://apps.apple.com/us/app/mentimeter/id1064435577
+### Use the browser on your phone or opena second desktop  browser and point it at the URL sent in the chat by the producer
 
 # On a per topic basis this course has: 
 ##  A. What information you need to know for the CEH v11 exam (knowledge) = readings
