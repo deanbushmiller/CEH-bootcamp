@@ -1,3 +1,7 @@
+# 4 days student links to files on AWS update
+## Up to August 22 these links will be active & the Windows box will reboot every hour
+https://o-cehv11.s3.us-west-1.amazonaws.com/Metasploitable3-ub1404.ova
+https://o-cehv11.s3.us-west-1.amazonaws.com/Metasploitable3-win2k8-disk1.vmdk
 # This github is for 2 different classes: 2-Day Bootcamp = what you must know to pass. 4-Day Bootcamp What you must do to pass.
 ## 2-day Knowing = Glossary/notecards, Readings. You can read on your once you understand the depth and focus of the exam.
 ## 4-day Doing = Understanding and apply concept in a lab. You can do the activities of Ethical hacking once you know the process and the tools.
