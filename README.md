@@ -1,3 +1,7 @@
+# 4 days student links to files on AWS update
+## Up to August 22 these links will be active & the Windows box will reboot every hour
+### NEW files links when Class starts - Attacker
+### NEW files links when Class starts - Victim
 # This github is for 2 different classes: 2-Day Bootcamp = what you must know to pass. 4-Day Bootcamp What you must do to pass.
 ## 2-day Knowing = Glossary/notecards, Readings. You can read on your once you understand the depth and focus of the exam.
 ## 4-day Doing = Understanding and apply concept in a lab. You can do the activities of Ethical hacking once you know the process and the tools.
@@ -6,8 +10,8 @@
 ## 2021-06-08 - PLEASE NOTE you can get much more if you email ask for an account on my vmlt.com site
 ### In the spirit of hacking: You must do some recon and find my email address to get an account.
 ### Your message must have
-### a subject line: o'iwantanaccount
-### a body containing: first,last name, country, timezone
+### a subject line: o'iwantmyCEH
+### a body containing: first,last name, country
 ### I resever the right to reject any request for any reason and not tell you the reason.
 
 # CEH-bootcamp 
