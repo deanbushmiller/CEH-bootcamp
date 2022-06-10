@@ -1,7 +1,13 @@
 # 4 days student links to files on AWS update
-## Up to August 22 these links will be active & the Windows box will reboot every hour
-### NEW files links when Class starts - Attacker
-### NEW files links when Class starts - Victim
+## You must have virutalbox or vmware installed and running.
+## you must support your own networking.
+## install kali image https://www.kali.org/get-kali/#kali-virtual-machines
+## These links will be active & the Windows box is without lic.  
+### Download - 10GB of data (watch your download speed) 2 victims or build metasploitable3 yourself https://github.com/rapid7/metasploitable3
+### https://ceh-v11-20220609.s3.amazonaws.com/CEHv11-metasploitable3-win2k8.ova
+### https://ceh-v11-20220609.s3.amazonaws.com/Metasploitable3-ub1404.ova
+### images will be accessible 6/10 to 6/17 but not durring class. After 6/17 you must build them yourself.
+
 # This github is for 2 different classes: 2-Day Bootcamp = what you must know to pass. 4-Day Bootcamp What you must do to pass.
 ## 2-day Knowing = Glossary/notecards, Readings. You can read on your once you understand the depth and focus of the exam.
 ## 4-day Doing = Understanding and apply concept in a lab. You can do the activities of Ethical hacking once you know the process and the tools.
