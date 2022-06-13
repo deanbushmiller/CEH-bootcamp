@@ -1,7 +1,15 @@
-# 4 days student links to files on AWS update
-## Up to August 22 these links will be active & the Windows box will reboot every hour
-### NEW files links when Class starts - Attacker
-### NEW files links when Class starts - Victim
+# 4 days student links to files stored on AWS update
+## You must have virutalbox or vmware installed and running
+## You must support your own networking
+## Download the kali image https://www.kali.org/get-kali/#kali-virtual-machines
+### Configure networking for 2 NICs: 1 internal, 1 internet
+## Download - 10GB of data (watch your download speed) 2 victims
+### https://ceh-v11-20220609.s3.amazonaws.com/CEHv11-metasploitable3-win2k8.ova
+### https://ceh-v11-20220609.s3.amazonaws.com/Metasploitable3-ub1404.ova
+### images will be accessible 6/10 to 6/17 but not durring class. After 6/17 you must build them yourself.
+## Or build metasploitable3 yourself https://github.com/rapid7/metasploitable3
+### Configure networking for 1 NIC: 1 internal (sames as kali) ensure Virtual sniffing
+
 # This github is for 2 different classes: 2-Day Bootcamp = what you must know to pass. 4-Day Bootcamp What you must do to pass.
 ## 2-day Knowing = Glossary/notecards, Readings. You can read on your once you understand the depth and focus of the exam.
 ## 4-day Doing = Understanding and apply concept in a lab. You can do the activities of Ethical hacking once you know the process and the tools.
@@ -35,7 +43,7 @@
 # On a per topic basis this course has: 
 ##  A. What information you need to know for the CEH v11 exam (knowledge) = readings
 ##  B. What you need to be able to do (tasks with tools) = labs
-##  C. What and how a professional does it (skills)
+##  C. What and how a professional does penetration testing (skills) = practices and context
 
 # FILES
 ## They are not perfect, if you have constructive ideas on improvement email me.
@@ -50,4 +58,3 @@
 ## I am your coach for the high jump of the CEH 11 exam
 ## I can show you how to train and help you adjust when you are off course
 ## I cannot jump for you
-
