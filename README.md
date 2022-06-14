@@ -1,5 +1,5 @@
 # 4 days student links to files stored on AWS update
-## You must have virutalbox or vmware installed and running
+## You must have virtualbox or vmware installed and running
 ## You must support your own networking
 ## Download the kali image https://www.kali.org/get-kali/#kali-virtual-machines
 ### Configure networking for 2 NICs: 1 internal, 1 internet
