@@ -51,7 +51,7 @@ Dean Bushmiller is hosting public AMIs in the us-east-1 region in AWS, which you
 
 `aws ec2 copy-image --name metasploitable3-linux --source-image-id ami-0b186198cc048aa9d --source-region us-east-1`
 
-`aws ec2 copy-image --name metasploitable3-windows --source-image-id ami-0194bde26e73f72e2 --source-region us-east-1`
+`aws ec2 copy-image --name metasploitable3-windows --source-image-id ami-02a92b6ee54981f06 --source-region us-east-1`
 
 Copy the names to text editor
 
