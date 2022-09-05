@@ -1,5 +1,5 @@
 # Completely new way to build lab 20220828
-## old way is detailed in the WIKI for this github
+## old way is here https://github.com/deanbushmiller/CEH-bootcamp/wiki/CEH-LAB-local-old-way
 # Penetration Testing AWS Lab Environment Deployment Guide
 	You will not need to install any software locally to run this lab.
 	Open a plaintext editor like notepad or ultra edit
