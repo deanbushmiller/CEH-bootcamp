@@ -1,4 +1,5 @@
-# Completely new way to build lab 20220828
+# Way to build lab 20220909
+## looks like the permission issues is fixed
 ## old way is here https://github.com/deanbushmiller/CEH-bootcamp/wiki/CEH-LAB-local-old-way
 # Penetration Testing AWS Lab Environment Deployment Guide
 	You will not need to install any software locally to run this lab.
