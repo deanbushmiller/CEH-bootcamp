@@ -1,5 +1,5 @@
 # Way to build lab 20220909
-# Penetration Testing AWS Lab Environment Deployment Guide
+# AWS Lab Environment Deployment Guide
 	You will not need to install any software locally to run this lab.
 	Open a plaintext editor like notepad or ultra edit
 	You will need an AWS account and a creditcard on file with Amazon.
