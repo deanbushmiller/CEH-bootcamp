@@ -61,6 +61,8 @@ ADVANCED TRICK: you can run all three at once by adding a space && space between
 
 **Important: Each command will output an _ImageId_.  YOUR ImageId is NOT typically the orginal ImageId. You need to copy these 3 to a local text file and keep them for the deployment steps below.**
 
+** You must wait 10 minutes for images to complete copy before next step **
+
 ## Deployment Guide:
 
 This solution is provided as a CloudFormation template in YAML format. The template can be used to deploy the solution the CloudFormation console within AWS.
