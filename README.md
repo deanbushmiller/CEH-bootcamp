@@ -106,8 +106,7 @@ It will take several minutes for the resources to be created, but once it has co
 - Because the AWS firewall rules limit access to Guacamole to your IP address only and this is a non-production lab it is reasonable to put the username and passwords in this document. Change the rules = no security = bad idea.
 - Do not use these credentails in any attack.
 - Only use them for configuration.
-- Please watch the video.
-
+- Please watch the video on configuration https://vimeo.com/767687771
 ##### Connection Credentials
 If it is not specified here - skip it
 * 1st connection (required)
