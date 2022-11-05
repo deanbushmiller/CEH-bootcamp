@@ -103,44 +103,50 @@ It will take several minutes for the resources to be created, but once it has co
 - https://guacamole.apache.org/
 - Clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH.There are no plugins or client software required.
 - You need to build connections: we do this in class.
+- Because the AWS firewall rules limit access to Guacamole to your IP address only and this is a non-production lab it is reasonable to put the username and passwords in this document. Change the rules = no security = bad idea.
+- Do not use these credentails in any attack.
+- Only use them for configuration.
+- Please watch the video.
 
 ##### Connection Credentials
 If it is not specified here - skip it
 * 1st connection (required)
-* Name: kali
-* Protocol: RDP
-* Max Connections: 1
-* Max Connections: 1
-* Skip down to: PARAMETERS | Network
-* Hostname: 10.0.0.4
-* Port: 3390
-* Authentication
-* Username: kali
-* Password: kali
+	* Name: kali
+	* Protocol: RDP
+	* Max Connections: 1
+	* Max Connections: 1
+	* Skip down to: PARAMETERS | Network
+	* Hostname: 10.0.0.4
+	* Port: 3390
+	* Authentication
+	* Username: kali
+	* Password: kali
 
-* 1st connection (required)
-* Name: kali
-* Protocol: RDP
-* Max Connections: 1
-* Max Connections: 1
-* Skip down to: PARAMETERS | Network
-* Hostname: 10.0.0.4
-* Port: 3390
-* Authentication
-* Username: kali
-* Password: kali
+* 2nd connection (Optional)
+	* Name: VIC-NIX
+	* Protocol: SSH
+	* Max Connections: 1
+	* Max Connections: 1
+	* Skip down to: PARAMETERS | Network
+	* Hostname: 10.0.0.10
+	* Port: 22
+	* Authentication
+	* Username: vagrant
+	* Password: vagrant
 
-* 1st connection (required)
-* Name: kali
-* Protocol: RDP
-* Max Connections: 1
-* Max Connections: 1
-* Skip down to: PARAMETERS | Network
-* Hostname: 10.0.0.4
-* Port: 3390
-* Authentication
-* Username: kali
-* Password: kali
+* 3rd connection (Optional)
+	* Name: VIC-WIN
+	* Protocol: RDP
+	* Max Connections: 1
+	* Max Connections: 1
+	* Skip down to: PARAMETERS | Network
+	* Hostname: 10.0.0.21
+	* Port: 3389
+	* Authentication
+	* Username: vagrant
+	* Password: vagrant
+	* Security mode: RDP encryption
+
 
 #### OLD way using Session Manager
 Once the stack is built, you can connect directly in your browser using AWS Session Manager. 
