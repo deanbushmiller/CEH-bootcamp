@@ -104,8 +104,8 @@ It will take several minutes for the resources to be created, but once it has co
 - Clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH.There are no plugins or client software required.
 - You need to build connections: we do this in class.
 - Because the AWS firewall rules limit access to Guacamole to your IP address only and this is a non-production lab it is reasonable to put the username and passwords in this document. Change the rules = no security = bad idea.
-- Do not use these credentails in any attack.
-- Only use them for configuration.
+- Do not use these credentails below in any attack. Only use them for configuration.
+- One security issue: you must accept browser "Certificate is not valid" This is resonable in non-production enviroment. You local security policy may not allow exception so you may noeed to do this on a personal asset.
 - Please watch the video on configuration https://vimeo.com/767687771
 ##### Connection Credentials
 If it is not specified here - skip it
