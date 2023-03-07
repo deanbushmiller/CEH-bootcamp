@@ -21,14 +21,13 @@
 *	CloudShell is only available in some regions. 
 *	Use this page to find 2 closest locations
 *	https://docs.aws.amazon.com/general/latest/gr/cloudshell.html
-###	Then run this test:
+### Then run this test:
 *	https://cloudpingtest.com/aws
 *	This will determine your closest region.
 *	>200 ms is going to slow your lab down.
-*	Must have cloudshell, then choose closest region
-
-* Choose a region close to your geographic location to deploy the solution. 
-* In the AWS Console, the region you have selected is shown in the top right.
+### Must have cloudshell, then choose closest region
+* 	Choose a region close to your geographic location to deploy the solution. 
+* 	In the AWS Console, the region you have selected is shown in the top right.
 
 ### Create SSH keypair in EC2
 
