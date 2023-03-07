@@ -15,13 +15,13 @@
 	https://portal.aws.amazon.com/billing/signup#/start/email
 
 ### Choose a region
-
 *	When deploying this solution, you should perform all of the steps in the same AWS region. 
 *	In order track costs easily this lab should not be a region where you perform actual business.
- ## According to "K"
+## According to "K"
 *	CloudShell is only available in some regions. 
-*	https://docs.aws.amazon.com/general/latest/gr/cloudshell.html in order to find an appropriate region.
-*	Run this test:
+*	Use this page to find 2 closest locations
+*	https://docs.aws.amazon.com/general/latest/gr/cloudshell.html
+*	Then run this test:
 *	https://cloudpingtest.com/aws
 *		This will determine your closest region.
 *		>200 ms is going to slow your lab down.
