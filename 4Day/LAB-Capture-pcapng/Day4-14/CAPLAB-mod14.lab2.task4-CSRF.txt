@@ -11,7 +11,7 @@ using this filter
 How many packets are displayed?
 
 
+Advanced:
+Find the marked bad packet- What is the error?
+Hint dig to Expert info - [TCP Analysis Flags]
 
-
-
-5527
