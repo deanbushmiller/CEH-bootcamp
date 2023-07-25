@@ -15,16 +15,19 @@
 	https://portal.aws.amazon.com/billing/signup#/start/email
 
 ### Choose a region
-
-	When deploying this solution, you should perform all of the steps in the same AWS region. 
-	In order track costs easily this lab should not be a region where you perform actual business.
-	Run this test first:
-	https://cloudpingtest.com/aws
-		This will determine your closest region.
-		>200 ms is going to slow your lab down.
-
-* Choose a region close to your geographic location to deploy the solution. 
-* In the AWS Console, the region you have selected is shown in the top right.
+*	When deploying this solution, you should perform all of the steps in the same AWS region. 
+*	In order track costs easily this lab should not be a region where you perform actual business.
+### According to "K"
+*	CloudShell is only available in some regions. 
+*	Use this page to find 2 closest locations
+*	https://docs.aws.amazon.com/general/latest/gr/cloudshell.html
+### Then run this test:
+*	https://cloudpingtest.com/aws
+*	This will determine your closest region.
+*	>200 ms is going to slow your lab down.
+### Must have cloudshell, then choose closest region
+* 	Choose a region close to your geographic location to deploy the solution. 
+* 	In the AWS Console, the region you have selected is shown in the top right.
 
 ### Create SSH keypair in EC2
 
