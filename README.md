@@ -1,5 +1,5 @@
 # Way to build lab 20240122
-*	THere was a bug that reported failed cloudformation astack due to "Elastic Network Adapter (ENA)"
+*	There was a bug that reported failed cloudformation stack due to "Elastic Network Adapter (ENA)"
 *	Delete the failed stack &
 *	restart at cloud Deployment Guide
 # AWS Lab Environment Deployment Guide
