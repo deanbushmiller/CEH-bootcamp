@@ -1,4 +1,7 @@
-# Way to build lab 20220909
+# Way to build lab 20240122
+*	THere was a bug that reported failed cloudformation astack due to "Elastic Network Adapter (ENA)"
+*	Delete the failed stack &
+*	restart at cloud Deployment Guide
 # AWS Lab Environment Deployment Guide
 	You will not need to install any software locally to run this lab.
 	Open a plaintext editor like notepad or ultra edit
