@@ -1,4 +1,4 @@
-# Way to build lab 20240122
+# Way to build lab 20240319
 *	There was a bug that reported failed cloudformation stack due to "Elastic Network Adapter (ENA)"
 *	Delete the failed stack &
 *	restart at cloud Deployment Guide
@@ -10,7 +10,7 @@
 	VERSION: 20220715.1
 
 
-## 12 minute video walk-thru of lab setup https://vimeo.com/731196164
+## 12 minute video walk-thru of lab setup https://vimeo.com/731196164 ( needs update but still work = follow below)
 
 ### AWS account
 	To build your AWS account consider using a non-work / disposable email adddress and disposable credit card.
@@ -42,33 +42,36 @@ Copy the name to text editor
 Windows users = .ppk
 The key will automatically download - save it for later use.
 
-### Copy 1 attacker and 2 victim machine AMIs (total of 3)
+### Copy 4 machine AMIs to your region via cloudshell
 
 The attacker instance is a Kali Linux VM, which is based on Debian Linux. The victims are virtual machines derived from the [Metasploitable3](https://github.com/rapid7/metasploitable3) project. 
+The victims have been adjusted by Dean to fit the OSINT/RECON of EXPSEC.
 
 Dean Bushmiller is hosting public AMIs in the us-east-1 region in AWS, which you will need to copy into your own AWS account in order to use with this solution.
 
 1. Login to the AWS Console with your AWS account credentials
+#### PLACE HOLDER FOR DEAN
 2. In the top navigation, to the right of the search bar, click the "shell" icon that looks like a terminal prompt to launch CloudShell (it will take a few moments to initialize the environment)
-3. Run the following three commands to copy the public AMI's into your account
+3. Run the following 4 commands to copy the public AMI's into your account
 
-`aws ec2 copy-image --name kali-linux --source-image-id ami-0e0c5931cfadd2102 --source-region us-east-1`
+`aws ec2 copy-image --name EXP-INFRA-GUAC --source-image-id ami-0c923b44cc3e36e80 --source-region us-east-1`
 
-`aws ec2 copy-image --name metasploitable3-linux --source-image-id ami-0b186198cc048aa9d --source-region us-east-1`
+`aws ec2 copy-image --name EXP-KALI-CTF --source-image-id ami-044c72fea0d5a1501 --source-region us-east-1`
 
-`aws ec2 copy-image --name metasploitable3-windows --source-image-id ami-0e3153815a2b50c67 --source-region us-east-1`
+`aws ec2 copy-image --name EXP-NIX-CTF --source-image-id ami-0118c774473483e96 --source-region us-east-1`
+
+`aws ec2 copy-image --name EXP-WIN-CTF --source-image-id ami-03307a74a952c20e6 --source-region us-east-1`
 
 Copy the names to text editor
 
 OR ADVANCED TRICK: you can run all three at once by adding a space && space between them. If you use an editor without line wrap this will BREAK.
 
-> `aws ec2 copy-image --name kali-linux --source-image-id ami-0e0c5931cfadd2102 --source-region us-east-1 && aws ec2 copy-image --name metasploitable3-linux --source-image-id ami-0b186198cc048aa9d --source-region us-east-1 && aws ec2 copy-image --name metasploitable3-windows --source-image-id ami-0e3153815a2b50c67 --source-region us-east-1`
+> `aws ec2 copy-image --name EXP-INFRA-GUAC --source-image-id ami-0c923b44cc3e36e80 --source-region us-east-1 && aws ec2 copy-image --name EXP-KALI-CTF --source-image-id ami-044c72fea0d5a1501 --source-region us-east-1 && aws ec2 copy-image --name EXP-NIX-CTF --source-image-id ami-0118c774473483e96 --source-region us-east-1 && aws ec2 copy-image --name EXP-WIN-CTF --source-image-id ami-03307a74a952c20e6 --source-region us-east-1`
 
 
-**Important: Each command will output an _ImageId_.  YOUR ImageId is NOT the orginal ImageId. You need to copy these 3  NAMES to a local text file and keep them for the deployment steps below.**
+**Important: Each command will output an _ImageId_.  YOUR ImageId is NOT the orginal ImageId. You need to copy these 4  NAMES & IMAGE IDS to a local text file and keep them for the deployment steps below.**
 
-** You must wait 10 minutes for images to complete copy before next step **
-
+** You must wait 15 minutes for images to complete copy before next step **
 ## Deployment Guide:
 
 This solution is provided as a CloudFormation template in YAML format. The template can be used to deploy the solution the CloudFormation console within AWS.
@@ -77,15 +80,14 @@ This solution is provided as a CloudFormation template in YAML format. The templ
 2. Go to the CloudFormation service
 3. Click Create Stack > With New Resources (standard)
 4. Give the stack a name and append today's date, Example 'pentestlab19991231' 
-5. For template source, https://ceh-v11-20220609.s3.amazonaws.com/20220715-LAB-Pentest/pentestlab.yml
+5. For template source, https://20240311-drb-ctf.s3.amazonaws.com/EXP-CTF-v2.yml
   _This may be turned off until class time_
 6. For step 2 fill in the parameters (see reference below)
 7. For step 3 it is not nessessary to Configure stack options (Next)
 8. For step 4 scroll to bottom: you must CHECK I acknowledge that AWS CloudFormation might create IAM resources.
 9. Create stack
 
-### Parameter Reference
-
+### Parameter Reference ( the ORDER of your Image ids is different that the script - use the descrip
 - AttackerAMIId: The AMI ID of the attacker image created above
 - LinuxVictimAMIId: The AMI ID of the Linux victim image created above
 - WindowsVictimAMIId: The AMI ID of the Windows victim image created above
@@ -106,58 +108,14 @@ It will take several minutes for the resources to be created, but once it has co
 
 ### Connecting to attacker 
 #### New way use Apache Guacamole
-- https://guacamole.apache.org/
 - Clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH.There are no plugins or client software required.
-- You need to build connections: we do this in class.
-- Because the AWS firewall rules limit access to Guacamole to your IP address only and this is a non-production lab it is reasonable to put the username and passwords in this document. Change the rules = no security = bad idea.
-- Do not use these credentails below in any attack. Only use them for configuration.
-- One security issue: you must accept browser "Certificate is not valid" This is resonable in non-production enviroment. You local security policy may not allow exception so you may noeed to do this on a personal asset.
-- Please watch the video on configuration https://vimeo.com/767687771
-##### Connection Credentials
-If it is not specified here - skip it
-* 1st connection (required)
-	* Name: kali
-	* Protocol: RDP
-	* Max Connections: 1
-	* Max Connections: 1
-	* Skip down to: PARAMETERS | Network
-	* Hostname: 10.0.0.4
-	* Port: 3390
-	* Authentication
-	* Username: kali
-	* Password: kali
-
-* 2nd connection (Optional)
-	* Name: VIC-NIX
-	* Protocol: SSH
-	* Max Connections: 1
-	* Max Connections: 1
-	* Skip down to: PARAMETERS | Network
-	* Hostname: 10.0.0.10
-	* Port: 22
-	* Authentication
-	* Username: vagrant
-	* Password: vagrant
-
-* 3rd connection (Optional)
-	* Name: VIC-WIN
-	* Protocol: RDP
-	* Max Connections: 1
-	* Max Connections: 1
-	* Skip down to: PARAMETERS | Network
-	* Hostname: 10.0.0.21
-	* Port: 3389
-	* Authentication
-	* Username: vagrant
-	* Password: vagrant
-	* Security mode: RDP encryption
+- Wait for all instances to report ready in the E2 console
+- identify the guacamole public IP address
+- type that into your browser
+- login kali with password kali
+- the first time this console loads it might take 5 to 10 minutes for the interface to display
 
 
-#### OLD way using Session Manager
-Once the stack is built, you can connect directly in your browser using AWS Session Manager. 
-Follow the steps [here](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-sessions-start.html#start-ec2-console) in the EC2 Console to connect.
-
-_Tip: The default session is not a full login shell, so running 'bash' once the session is started will provide a better experience._
 
 ## Cleaning Up
 When you are done using the solution, you will want to tear down the resources you built in order to prevent unwanted costs in your AWS account.
