@@ -54,19 +54,19 @@ Dean Bushmiller is hosting public AMIs in the us-east-1 region in AWS, which you
 2. In the top navigation, to the right of the search bar, click the "shell" icon that looks like a terminal prompt to launch CloudShell (it will take a few moments to initialize the environment)
 3. Run the following 4 commands to copy the public AMI's into your account
 
-`aws ec2 copy-image --name EXP_INFRA_GUAC --source-image-id ami-0087a61ef0a3022f6 --source-region us-east-1`
+`aws ec2 copy-image --name EXP_INFRA_GUAC --source-image-id ami-0087a61ef0a3022f6 --source-region us-east-2`
 
-`aws ec2 copy-image --name EXP_KALI_CTF --source-image-id ami-0acfbd5fc2107447e --source-region us-east-1`
+`aws ec2 copy-image --name EXP_KALI_CTF --source-image-id ami-0acfbd5fc2107447e --source-region us-east-2`
 
-`aws ec2 copy-image --name EXP_NIX-CTF --source-image-id ami-0a0dcedeeb64186f5 --source-region us-east-1`
+`aws ec2 copy-image --name EXP_NIX-CTF --source-image-id ami-0a0dcedeeb64186f5 --source-region us-east-2`
 
-`aws ec2 copy-image --name EXP_WIN_CTF --source-image-id ami-0f7cef598110aa18d --source-region us-east-1`
+`aws ec2 copy-image --name EXP_WIN_CTF --source-image-id ami-0f7cef598110aa18d --source-region us-east-2`
 
 Copy the names to text editor
 
 OR ADVANCED TRICK: you can run all three at once by adding a space && space between them. If you use an editor without line wrap this will BREAK.
 
-> `aws ec2 copy-image --name EXP_INFRA_GUAC --source-image-id ami-0087a61ef0a3022f6 --source-region us-east-1 && aws ec2 copy-image --name EXP_KALI_CTF --source-image-id ami-0acfbd5fc2107447e --source-region us-east-1 && aws ec2 copy-image --name EXP_NIX-CTF --source-image-id ami-0a0dcedeeb64186f5 --source-region us-east-1 && aws ec2 copy-image --name EXP_WIN_CTF --source-image-id ami-0f7cef598110aa18d --source-region us-east-1`
+> `aws ec2 copy-image --name EXP_INFRA_GUAC --source-image-id ami-0087a61ef0a3022f6 --source-region us-east-2 && aws ec2 copy-image --name EXP_KALI_CTF --source-image-id ami-0acfbd5fc2107447e --source-region us-east-2 && aws ec2 copy-image --name EXP_NIX-CTF --source-image-id ami-0a0dcedeeb64186f5 --source-region us-east-2 && aws ec2 copy-image --name EXP_WIN_CTF --source-image-id ami-0f7cef598110aa18d --source-region us-east-2`
 
 
 **Important: Each command will output an _ImageId_.  YOUR ImageId is NOT the orginal ImageId. You need to copy these 4  NAMES & IMAGE IDS to a local text file and keep them for the deployment steps below.**
