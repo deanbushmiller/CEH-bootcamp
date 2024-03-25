@@ -1,4 +1,4 @@
-# Way to build lab 20240320
+# Way to build lab 20240325
 *	There was a bug that reported failed cloudformation stack due to "Elastic Network Adapter (ENA)"
 *	Delete the failed stack & restart at cloud Deployment Guide
 *	There was spelling mistatke on the script fixed 20240320
