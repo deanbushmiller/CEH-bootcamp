@@ -56,7 +56,7 @@ Dean Bushmiller is hosting public AMIs in the us-east-1 region in AWS, which you
 
 `aws ec2 copy-image --name EXP-INFRA-GUAC --source-image-id ami-07a1ea255ba1a9bfe --source-region us-east-1`
 
-`aws ec2 copy-image --name EXP-KALI-CTF --source-image-id ami-07a1e380f2bc4da91 --source-region us-east-1`
+`aws ec2 copy-image --name EXP-KALI-CTF --source-image-id ami-07446511839726bd6 --source-region us-east-1`
 
 `aws ec2 copy-image --name EXP-NIX-CTF --source-image-id ami-0bf7ac8fcd3597034 --source-region us-east-1`
 
@@ -67,7 +67,7 @@ Copy the names to text editor
 
 OR ADVANCED TRICK: you can run all three at once by adding a space && space between them. If you use an editor without line wrap this will BREAK.
 
-> `aws ec2 copy-image --name EXP-INFRA-GUAC --source-image-id ami-07a1ea255ba1a9bfe --source-region us-east-1 && aws ec2 copy-image --name EXP-KALI-CTF --source-image-id ami-07a1e380f2bc4da91 --source-region us-east-1 && aws ec2 copy-image --name EXP-NIX-CTF --source-image-id ami-0bf7ac8fcd3597034 --source-region us-east-1 && aws ec2 copy-image --name EXP-WIN-CTF --source-image-id ami-0a07faed3e839833e --source-region us-east-1`
+> `aws ec2 copy-image --name EXP-INFRA-GUAC --source-image-id ami-07a1ea255ba1a9bfe --source-region us-east-1 && aws ec2 copy-image --name EXP-KALI-CTF --source-image-id ami-07446511839726bd6 --source-region us-east-1 && aws ec2 copy-image --name EXP-NIX-CTF --source-image-id ami-0bf7ac8fcd3597034 --source-region us-east-1 && aws ec2 copy-image --name EXP-WIN-CTF --source-image-id ami-0a07faed3e839833e --source-region us-east-1`
 
 
 **Important: Each command will output an _ImageId_.  YOUR ImageId is NOT the orginal ImageId. You need to copy these 4  NAMES & IMAGE IDS to a local text file and keep them for the deployment steps below.**
