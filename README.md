@@ -8,7 +8,7 @@
 	You will need an AWS account and a creditcard on file with Amazon.
 	This will cost less than two dollars per hour while it is running
 	VERSION: 20240430.01
-## !!! minute video walk-thru of lab setup https://vimeo.com/!!! 
+## 9 minute video walk-thru of lab setup & tear down https://vimeo.com/941430484
 
 ### AWS account
 	To build your AWS account consider using a non-work / disposable email adddress.
