@@ -83,12 +83,12 @@ This solution is provided as a CloudFormation template in YAML format. The templ
 2. Go to the CloudFormation service
 3. Click Create Stack > With New Resources (standard)
 4. Give the stack a name and append today's date, Example 'pentestlab19991231' 
-5. For template source, https://20240311-drb-ctf.s3.amazonaws.com/EXP-CTF-v2.yml
-  _This may be turned off until class time_
-6. For step 2 fill in the parameters (see reference below)
-7. For step 3 it is not nessessary to Configure stack options (Next)
-8. For step 4 scroll to bottom: you must CHECK I acknowledge that AWS CloudFormation might create IAM resources.
-9. Create stack
+5. For template source, https://20240311-drb-ctf.s3.amazonaws.com/CAP-flag-v3.yml
+   _This may be turned off until class time_
+7. For step 2 fill in the parameters (see reference below)
+8. For step 3 it is not nessessary to Configure stack options (Next)
+9. For step 4 scroll to bottom: you must CHECK I acknowledge that AWS CloudFormation might create IAM resources.
+10. Create stack
 
 ### Parameter Reference ( the ORDER of your Image ids is different that the script - use the descrip
 - AttackerAMIId: The AMI ID of the attacker image created above
