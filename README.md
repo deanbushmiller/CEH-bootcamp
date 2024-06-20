@@ -1,6 +1,6 @@
-# Ways to build lab 20240430
+# Ways to build lab 20240619
 *	The old way to build labs is in the wiki page https://github.com/deanbushmiller/CEH-bootcamp/wiki/Z-Non-oreilly-way-to-build-lab
-*	The new way (below) requires the O'Reilly images to be uploaded
+*	The new way (below) requires the O'Reilly images to be uploaded ( this is only done at class time images are not avaialble until then)
 *	We can build the lab at the beginning of class
 
 # AWS Lab Environment Deployment Guide
