@@ -18,7 +18,7 @@
 *	In order track costs easily deploy in an empty region (where no other machines are deployed).
 #### Run this test to determine your closest region:
 *	https://cloudpingtest.com/aws
-*	>200 ms is going to slow your lab down.
+*	Less than 200 ms is optimal.
 ### Create SSH keypair in EC2
 1. Login to the AWS Console
 2. In left sevices search type key pairs
