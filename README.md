@@ -1,6 +1,6 @@
-# Ways to build lab 20240619
+# Ways to build lab 20240715
 *	The old way to build labs is in the wiki page https://github.com/deanbushmiller/CEH-bootcamp/wiki/Z-Non-oreilly-way-to-build-lab
-*	The new way (below) requires the O'Reilly images to be uploaded ( this is only done at class time images are not avaialble until then)
+*	The new way (below) requires the O'Reilly images to be uploaded ( READY 20240713-21) 
 *	We can build the lab at the beginning of class
 
 # AWS Lab Environment Deployment Guide
@@ -30,7 +30,7 @@ The key will automatically download
 2. Search for CloudFormation in service
 3. Click Create Stack > With New Resources (standard)
 4. Give the stack same name as your SSH key, Example 'lab20240430' 
-5. For template source, https://20240311-drb-ctf.s3.amazonaws.com/CAP-flag-v4.yml
+5. For template source, https://20240311-drb-ctf.s3.amazonaws.com/CAP-flag-20240716.yml
    _This may be turned off until class time_
 6. Fill in the parameters
 - PublicIpAddress: Your public IPv4 address.
