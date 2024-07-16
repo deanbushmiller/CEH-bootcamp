@@ -30,16 +30,17 @@
  - The key will automatically download
 ## Resource Deployment
 1. Search for CloudFormation in service
-2. Click Create Stack > With New Resources (standard)
-3. Give the stack same name as your SSH key, Example 'lab20240430' 
-4. For template source, https://20240311-drb-ctf.s3.amazonaws.com/CAP-flag-20240716.yml
-5. Fill in the parameters
+2. On right Click Create Stack > With New Resources (standard)
+4. Template source, https://20240311-drb-ctf.s3.amazonaws.com/CAP-flag-20240716.yml
+5. Click Next
+6. Fill in the parameters
  - Name stack:
-   - Same as key from above
- - PublicIpAddress: Your public IPv4 address.
-   - Use https://whatismyipaddress.com/
- - SSHKeyPair: key pair you created above will be listed in the drop down
-6. Click (Next)
+   - Same as key pairs from above
+ - PublicIpAddress:
+   - Your public IPv4 address. ( https://whatismyipaddress.com/ )
+ - SSHKeyPair:
+   - key pair you created before will be listed in the drop down
+6. Click Next
 7. Scroll to bottom: you must CHECK I acknowledge that AWS CloudFormation might create IAM resources.
 8. Click (Create stack)
 ### Wait 5 min
