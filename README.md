@@ -52,7 +52,7 @@ It will take up to 5 minutes for the resources to be created
 3. Copy & Paste IP into your browser
 4. Login kali with password kali
 - the first time this console loads it might take 5 minutes for the interface to display
-### Smile yout lab is ready
+### Smile your lab is ready
 
 ## Cleaning Up
 When you are done using the solution, you will want to tear down the resources you built in order to prevent unwanted costs in your AWS account.
