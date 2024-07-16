@@ -20,34 +20,36 @@
 *	https://cloudpingtest.com/aws
 *	>200 ms is going to slow your lab down.
 ### Create SSH keypair in EC2
-Follow the steps [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html#having-ec2-create-your-key-pair) 
-This is used to create an SSH key pair for connecting to the attacker machine in emergencies.
-Name your key 'lab' and append today's date, Example 'lab20240430'
-Windows users = .ppk
-The key will automatically download
-## Deployment Guide:
 1. Login to the AWS Console
-2. Search for CloudFormation in service
-3. Click Create Stack > With New Resources (standard)
-4. Give the stack same name as your SSH key, Example 'lab20240430' 
-5. For template source, https://20240311-drb-ctf.s3.amazonaws.com/CAP-flag-20240716.yml
-   _This may be turned off until class time_
-6. Fill in the parameters
-- PublicIpAddress: Your public IPv4 address.
-  This can be acquired by searching https://whatismyipaddress.com/
-- SSHKeyPair: key pair you created above will be listed in the drop down
-7. Click (Next)
-8. Scroll to bottom: you must CHECK I acknowledge that AWS CloudFormation might create IAM resources.
-9. Click (Create stack)
-### Next Step -wait
-It will take several minutes for the resources to be created
-- You only need the public IP address of the Guacamole (this is a browser that only lets you connect to your KALI instance)
+2. In left sevices search type key pairs
+3. On right click "create key pair"
+ - This is used to create an SSH key pair for connecting to the attacker machine in emergencies.
+4. Name your key 'lab' and append today's date, Example 'lab20240430'
+ - Windows = .ppk / Everyone else .pem
+5. Click create key pairs.
+ - The key will automatically download
+## Resource Deployment
+1. Search for CloudFormation in service
+2. Click Create Stack > With New Resources (standard)
+3. Give the stack same name as your SSH key, Example 'lab20240430' 
+4. For template source, https://20240311-drb-ctf.s3.amazonaws.com/CAP-flag-20240716.yml
+5. Fill in the parameters
+ - Name stack:
+   - Same as key from above
+ - PublicIpAddress: Your public IPv4 address.
+   - Use https://whatismyipaddress.com/
+ - SSHKeyPair: key pair you created above will be listed in the drop down
+6. Click (Next)
+7. Scroll to bottom: you must CHECK I acknowledge that AWS CloudFormation might create IAM resources.
+8. Click (Create stack)
+### Wait 5 min
+It will take up to 5 minutes for the resources to be created
 ### Connecting to Guacamole
-10. Search for E2 console at top of browser
-11. Identify the guacamole public IP address
+1. Search for EC2 console at top of AWS interface / click Instances and sub menu Instances / right side will show your running machines
+2. Identify the guacamole public IP address
 - Name of instance will say "This-Pub-IP-ADDRESS-GUAC"
-12. Type IP into your browser
-13. Login kali with password kali
+3. Copy & Paste IP into your browser
+4. Login kali with password kali
 - the first time this console loads it might take 5 minutes for the interface to display
 ### Smile yout lab is ready
 
