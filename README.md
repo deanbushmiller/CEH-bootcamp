@@ -31,7 +31,7 @@
 ## Resource Deployment
 1. Search for CloudFormation in service
 2. On right Click Create Stack > With New Resources (standard)
-4. Template source, https://20240311-drb-ctf.s3.amazonaws.com/CAP-flag-20240716.yml
+4. Template source, https://20240311-drb-ctf.s3.amazonaws.com/CAP-flag-20241007v2.yml
 5. Click Next
 6. Fill in the parameters
  - Name stack:
