@@ -1,4 +1,4 @@
-# Ways to build lab 20240715
+# Ways to build lab 20250109
 *	The old way to build labs is in the wiki page https://github.com/deanbushmiller/CEH-bootcamp/wiki/Z-Non-oreilly-way-to-build-lab
 *	The new way (below) requires the O'Reilly images to be uploaded ( READY 20240713-21) 
 *	We can build the lab at the beginning of class
@@ -7,7 +7,7 @@
 	You will not need to install any software locally to run this lab.
 	You will need an AWS account and a creditcard on file with Amazon.
 	This will cost less than two dollars per hour while it is running
-	VERSION: 20240715.01
+	VERSION: 20250109.01
 ## 9 minute video walk-thru of lab setup & tear down https://vimeo.com/941430484
 
 ### AWS account
@@ -24,14 +24,14 @@
 2. In left sevices search type key pairs
 3. On right click "create key pair"
  - This is used to create an SSH key pair for connecting to the attacker machine in emergencies.
-4. Name your key 'lab' and append today's date, Example 'lab20240430'
+4. Name your key 'lab' and append today's date, Example 'lab20250109'
  - Windows = .ppk / Everyone else .pem
 5. Click create key pairs.
  - The key will automatically download
 ## Resource Deployment
 1. Search for CloudFormation in service
 2. On right Click Create Stack > With New Resources (standard)
-4. Template source, https://20240311-drb-ctf.s3.amazonaws.com/CAP-flag-20241007v2.yml
+4. Template source, https://20241231-always-up-rid3031.s3.us-east-1.amazonaws.com/CAP-flag-20250109v1.yml
 5. Click Next
 6. Fill in the parameters
  - Name stack:
