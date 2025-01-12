@@ -1,3 +1,9 @@
+# links to mindmaps
+*	These maps will be up durrning class
+*	https://20250111-ceh-upclass-plus7-636623.s3.us-east-1.amazonaws.com/MaplinkonAWS.pdf
+*	You can get them in PDF format while in class or in the recording
+*	Do not not ask for them outside of class
+*	This link above is open one day before class and 5 days after
 # Ways to build lab 20250109
 *	The old way to build labs is in the wiki page https://github.com/deanbushmiller/CEH-bootcamp/wiki/Z-Non-oreilly-way-to-build-lab
 *	The new way (below) requires the O'Reilly images to be uploaded ( NOT READY ) 
