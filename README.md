@@ -4,7 +4,7 @@
 *	You can get them in PDF format while in class or in the recording
 *	Do not not ask for them outside of class
 *	This link above is open one day before class and 5 days after
-# Ways to build lab 20250109
+# Ways to build lab 20250114 working
 *	The old way to build labs is in the wiki page https://github.com/deanbushmiller/CEH-bootcamp/wiki/Z-Non-oreilly-way-to-build-lab
 *	The new way (below) requires the O'Reilly images to be uploaded ( NOT READY ) 
 *	We can build the lab at the beginning of class
@@ -37,7 +37,7 @@
 ## Resource Deployment
 1. Search for CloudFormation in service
 2. On right Click Create Stack > With New Resources (standard)
-4. Template source, https://20241231-always-up-rid3031.s3.us-east-1.amazonaws.com/CAP-flag-20250109v3.yml
+4. Template source, https://20241231-always-up-rid3031.s3.us-east-1.amazonaws.com/CAP-flag-20250109v4.yml
 5. Click Next
 6. Fill in the parameters
  - Name stack:
@@ -56,8 +56,16 @@ It will take up to 5 minutes for the resources to be created
 2. Identify the guacamole public IP address
 - Name of instance will say "This-Pub-IP-ADDRESS-GUAC"
 3. Copy & Paste IP into your browser
-4. Login kali with password kali
-- the first time this console loads it might take 5 minutes for the interface to display
+4. Login labmin with password reallylongrandompassword
+
+### One minor change to configuration
+1. Upper right corner: Labmin | Settings
+2. Top tool bar: Connections
+3. Click Kali
+4. Change Network | parameters | port to 5901
+5. Scroll to the bottom click save
+6. Upper right corner: Labmin | Home
+7. Click Kali to launch interface
 ### Smile your lab is ready
 
 ## Cleaning Up
