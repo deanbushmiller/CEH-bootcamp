@@ -37,7 +37,7 @@
 ## Resource Deployment
 1. Search for CloudFormation in service
 2. On right Click Create Stack > With New Resources (standard)
-4. Template source, https://20241231-always-up-rid3031.s3.us-east-1.amazonaws.com/CAP-flag-20250109v4.yml
+4. Template source, https://20241231-always-up-rid3031.s3.us-east-1.amazonaws.com/CAP-flag-20250109v5.yml
 5. Click Next
 6. Fill in the parameters
  - Name stack:
@@ -56,16 +56,7 @@ It will take up to 5 minutes for the resources to be created
 2. Identify the guacamole public IP address
 - Name of instance will say "This-Pub-IP-ADDRESS-GUAC"
 3. Copy & Paste IP into your browser
-4. Login labmin with password reallylongrandompassword
-
-### One minor change to configuration
-1. Upper right corner: Labmin | Settings
-2. Top tool bar: Connections
-3. Click Kali
-4. Change Network | parameters | port to 5901
-5. Scroll to the bottom click save
-6. Upper right corner: Labmin | Home
-7. Click Kali to launch interface
+4. Login kali with password kali
 ### Smile your lab is ready
 
 ## Cleaning Up
