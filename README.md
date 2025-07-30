@@ -4,11 +4,12 @@
 *	You can get them in PDF format while in class or in the recording
 *	Do not not ask for them outside of class
 *	This link above is open one day before class and 5 days after
-# Ways to build lab 20250114 working
-*	The old way to build labs is in the wiki page https://github.com/deanbushmiller/CEH-bootcamp/wiki/Z-Non-oreilly-way-to-build-lab
+# Ways to build lab for 20250730
+*	 https://github.com/deanbushmiller/CEH-bootcamp/wiki/Z-Non-oreilly-way-to-build-lab
 *	The new way (below) requires the O'Reilly images to be uploaded ( NOT READY ) 
 *	We can build the lab at the beginning of class
 
+# DO NOT DO for 20250730 - 31 class
 # AWS Lab Environment Deployment Guide
 	You will not need to install any software locally to run this lab.
 	You will need an AWS account and a creditcard on file with Amazon.
