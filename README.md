@@ -39,9 +39,9 @@
 ## Resource Deployment
 1. Search for CloudFormation in service
 2. On right Click Create Stack > With New Resources (standard)
-4. Template source, https://20241231-always-up-rid3031.s3.us-east-1.amazonaws.com/CEH-20260309v1.yml
-5. Click Next
-6. Fill in the parameters
+4. Template source, https://20241231-always-up-rid3031.s3.us-east-1.amazonaws.com/CEH-20260729v1.yml
+6. Click Next
+7. Fill in the parameters
  - Name stack:
    - Same as key pairs from above
  - PublicIpAddress:
